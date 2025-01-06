@@ -4,7 +4,7 @@ Protótipo de um site
 ## Descrição do projeto
 
 <p align = "justify">
-  Projeto de faculdade.
+  Projeto de faculdade. <br>
   Protótipo de site para encontrar bons trabalhos informais e cursos profissionalizantes.
 </p>
 

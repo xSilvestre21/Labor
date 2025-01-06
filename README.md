@@ -15,3 +15,6 @@ Protótipo de um site
 :heavy_check_mark: Comentários
 
 :heavy_check_mark: Biografia
+
+## Como rodar a aplicação :arrow_forward:
+  Abra o arquivo inicio.html no seu navegador.

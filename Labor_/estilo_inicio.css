@@ -1,0 +1,218 @@
+:root{
+    --primary-color: #e43018;
+    --secondary-color: #242323e0;
+}
+
+html{
+    /* font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;  */
+    font: 400 62.5% 'Inter', sans-serif;
+
+}
+body{
+    margin: 0;
+}
+
+p, a{
+    font-size: 1.6rem;
+}
+
+h1{
+    font-size: 4.8rem;
+}
+
+h2{
+    font-size: 4rem;
+}
+
+h3{
+    font-size: 3.2rem;
+}
+nav a{
+    color: #E6D9C8;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.upper{
+    text-transform: uppercase;
+}
+
+.btn{
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    font-size: 1.8rem;
+    text-decoration: none;
+    padding: 1.6rem 4.6rem ;
+    display: inline-block;
+    color: inherit;
+}
+
+.wrapperContainer{
+    padding-top: 1px;
+
+}
+
+.wrapperContainer-dark{
+    background-color: var(--primary-color);
+    color: #fafafa;
+}
+
+.wrapperContainer-light {
+    background-color: #E6D9C8;
+}
+
+.wrapperContainer-fixed{
+    border-bottom: 5px solid black;
+
+}
+
+.wrapperContainer-padded{
+    padding-top: 6rem;
+}
+
+.container{
+    max-width: 127.6rem;
+    margin: auto;
+}
+
+.section_title{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    padding: 0rem 0;
+    margin-top: 0;
+    margin-bottom: 1.4em;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3.6em;
+    text-shadow: 1px -1px 0 rgba(223, 142, 35, 0.801);
+}
+
+.section_btn{
+    margin: 7rem 0;
+    color: white;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--primary-color);
+    padding: 0rem 0;
+
+}
+.header_logo{
+    font-size: 1px;
+}
+.header_nav a{
+    padding: 0.75em 1.45em;
+    border: solid 0.15em;
+    text-decoration: none;
+    font-size: 1.7em;
+    font-weight: bold;
+    border-radius: 7%;
+
+}
+.header_nav ul{
+    display: flex;
+    gap: .8rem;
+    list-style-type: none;
+    margin-bottom: 10em;
+    margin-right: 5px;
+}
+.header_nav a:hover{
+    padding: 0.85em 1.65em;
+    background-color: rgb(136, 24, 24);
+    transition: 0.5s;
+}
+
+.wrapperContainer-hero{
+    background-image: linear-gradient(transparent, rgb(252, 82, 82));
+}
+
+.heroBanner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 10rem; */
+}
+
+.header_content{
+    margin-left: 13rem;
+}
+.hero_title{
+    margin-bottom: 4rem;
+}
+
+.cursos{
+    text-align: center;
+}
+
+.cursosContainer{
+    display: flex;
+    text-align: left;
+    gap: 2rem;
+}
+
+.curso_card{
+    flex: 1;
+}
+
+.curso_card img{
+    display: block;
+    width: 100%;
+}
+.curso_card h3{
+    font-size: 2.4rem;
+}
+
+.curso_card p{
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+.cursos_card_content{
+    padding: 1rem 1.25rem;
+    border: 1px solid #868080;
+    border-radius: 0 0 8px 8px;
+    overflow: hidden;
+    border-top: transparent;
+}
+
+.dark2{
+    display: flex;
+    padding-top: 6rem;
+    gap: 7rem;
+}
+
+.dark2 h2{
+    font-size: 3.2rem;
+    margin-top: 2rem;
+}
+
+.dark2 p{
+    line-height: 1.75;
+    font-size: 1.8rem;
+}
+
+
+.contato_address{
+    text-align: right;
+    font-size: 400 1.8rem "Inter", sans-serif;
+    padding: 3rem 0;
+}
+
+.footer{
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 4.5rem;
+
+}
+
+.footer a{
+    color: inherit;
+}

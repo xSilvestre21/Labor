@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Open+Sans:wght@400;700&family=Roboto:wght@300;400&display=swap');
+
+:root {
+    --primary-color: #e43018;
+    --secondary-color: #242323e0;
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+h1 {
+    font-size: 1.7em;
+    text-transform: uppercase;
+    color:var(--secondary-color);
+    margin-left: 10px;
+}
+
+.container {
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 100px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.display {
+    display: flex;
+    margin: 0 auto;
+}
+
+form input, form label, form button {
+    display: block;
+    width: 96%;
+    margin-bottom: 10px;
+    margin: 0 auto 10px;
+    font-size: 18px;
+}
+
+form input {
+    padding: .5em 0;
+    font-size: 1.2rem;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid var(--primary-color);
+    margin-bottom: .8rem;
+    outline: none;
+    transition: padding-left .08s;
+}
+
+form input:focus {
+    outline: 2px solid var(--primary-color);
+    padding-left: .3rem;
+}
+
+form button {
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 45px;
+    cursor: pointer;
+    margin-top: 30px;
+    border: none;
+}
+
+form button:hover {
+    background-color:#922416;
+}
+
+.error-text {
+    font-size: 12px;
+    color: red;
+}
+
+span {
+    font-size: .5em;
+}
+
+.label-checkbox {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.lbl2 span {
+    display: inline-block;
+    font-size: 16px;
+    width: 1em;
+    height: 1em;
+    background-color: #fff;
+    border: 1px solid black;
+    position: relative;
+    transition: background-color .5s;
+}
+
+
+
+.lbl2 input[type = "checkbox"]:checked + span {
+    background-color: var(--primary-color);
+    
+}
+
+.lbl2 input[type = "checkbox"] + span::before {
+    content: "";
+    display: block;
+    border: .097em solid white;
+    position: absolute;
+    top: .077em;
+    right: .38em;
+    left: .3em;
+    bottom: .3em;
+    transform: rotate(45deg);
+    border-left: transparent;
+    border-top: transparent;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.lbl2 input[type = "checkbox"]:checked + span::before {
+    opacity: 1;
+}
+
+.lbl2 input[type = "checkbox"] {
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: absolute;
+    outline: none;
+}
+
+.lbl2 input[type = "checkbox"]:focus+span {
+    outline-offset: -2px;
+    box-sizing: border-box;
+}
+
+.display-lbl2 {
+    display: flex;
+    width: 96%;
+    margin: 0 auto;
+   
+}
+
+.lbl2_text {
+    margin-top: 40px;
+}
+
+.space-div {
+    margin-top: 10px;
+}
+
+#input-label {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+

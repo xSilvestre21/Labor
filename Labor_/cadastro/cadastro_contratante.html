@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="display">
+        <section class="logo">
+            <img src="./images/Labor _BRANCA.png" alt="">
+        </section>
+        <section class="container">
+            <h1>Cadastre-se <span>(contratante)</span></h1>
+
+            <form action="../feed/feed.html" method="get" class="formulario">
+                <label for="name">Nome:</label>
+                <input type="text" class="nome validar" id="name">
+                <label for="surname">Sobrenome:</label>
+                <input type="text" class="sobrenome validar" id="surname">
+                <label for="cpf">CPF:</label>
+                <input type="text" class="cpf validar" id="cpf">
+                <label for="user">Usuário:</label>
+                <input type="text" class="usuario validar" id="user">
+                <label for="password">Senha:</label>
+                <input type="password" class="senha validar" id="password">
+                <label for="again">Repetir Senha:</label>
+                <input type="password" class="repetir-senha validar" id="again">
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+
+    <script src="./assets/js/validaCPF.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
